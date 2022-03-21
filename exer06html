@@ -21,11 +21,9 @@
     <p>Já me livrei da maldição</p>
 
     <script>
-        var anoNascimento = prompt('Qual o ano do seu Nascimento ?');
-        var anoAtual = prompt('Em que ano você está ?');
-        var idade = anoAtual - anoNascimento;
-        var outraIdade = --anoAtual - anoNascimento;
-        alert("Sua idade é " + idade + " ou " + outraIdade)
+    var sobrenome = prompt('Qual o seu Sobrenome?')
+    alert('Seu sobrenome tem ' + sobrenome.length + " letra")
+        
     </script
 </body>
 </html>
